@@ -1,13 +1,36 @@
 <keymap version="1" name="Visual Studio (macOS) copy" parent="Visual Studio OSX">
+  <action id="ChangeSignature" />
+  <action id="EditorToggleShowWhitespaces" />
+  <action id="ExtractMethod" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Inline" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceVariable" />
+  <action id="Move" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
+  <action id="ParameterInfo" />
   <action id="Refactorings.QuickListPopupAction" />
+  <action id="RenameElement" />
+  <action id="RiderBackendAction-EncapsulateField" />
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
 </keymap>
