@@ -20,13 +20,18 @@
     <keyboard-shortcut first-keystroke="shift meta l" />
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
-  <action id="EditorMoveToPageBottom">
-    <keyboard-shortcut first-keystroke="meta page_down" />
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="meta page_up" />
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="EditorToggleShowWhitespaces" />
   <action id="ExternalSystem.OpenConfig">
@@ -64,9 +69,6 @@
   <action id="Move" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
-  </action>
-  <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
