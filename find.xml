@@ -3,6 +3,7 @@
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
-    <mask>*.cs</mask>
+    <mask>*.pyw</mask>
+    <mask>*.py</mask>
   </component>
 </application>
