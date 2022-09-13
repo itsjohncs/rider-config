@@ -1,4 +1,9 @@
 <keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="CopyAbsolutePath">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="DatabaseView.PropertiesAction" />
   <action id="Diff.FocusOppositePane" />
   <action id="EditorAddCaretPerSelectedLine">
     <keyboard-shortcut first-keystroke="shift alt g" />
@@ -20,6 +25,7 @@
     <keyboard-shortcut first-keystroke="shift f1" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
+  <action id="IncrementalSearch" />
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="NextTab">
@@ -37,7 +43,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="PreviousTemplateVariable" />
+  <action id="RiderNuGetToggleInfoExpanderAction" />
   <action id="SearchEverywhere.PrevTab" />
   <action id="SplitChooser.PreviousWindow" />
   <action id="Switcher" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>
