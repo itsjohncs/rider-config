@@ -55,6 +55,11 @@
   <action id="PreviousTemplateVariable" />
   <action id="RiderNuGetToggleInfoExpanderAction" />
   <action id="SearchEverywhere.PrevTab" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="shift f12" />
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="SplitChooser.PreviousWindow" />
   <action id="Switcher" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
