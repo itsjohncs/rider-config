@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '~/primer/barter-simulation/Runtime/GameObjectLabel.cs'" />
-    <option name="defaultScopeName" value="File '~/primer/barter-simulation/Runtime/GameObjectLabel.cs'" />
-    <option name="SEARCH_SCOPE" value="File '~/primer/barter-simulation/Runtime/GameObjectLabel.cs'" />
+    <option name="customScope" value="File '~/primer/barter-simulation/Runtime/Inventory/Follower.cs'" />
+    <option name="defaultScopeName" value="File '~/primer/barter-simulation/Runtime/Inventory/Follower.cs'" />
+    <option name="SEARCH_SCOPE" value="File '~/primer/barter-simulation/Runtime/Inventory/Follower.cs'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
